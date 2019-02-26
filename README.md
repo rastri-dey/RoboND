@@ -43,4 +43,6 @@ $ cd ~/catkin_ws
 $ source devel/setup.bash
 $ rosrun udacity_bot navigation goal
 ```
-The robot starts navigating, while localizing itself in the map provided!!
+**Note:** Change the folder name of catkin_ws in case of testing both the models together. For e.g., 'Catkin_ws1'for custom designed robot. ```cd ~/catkin_ws1``` Rest all steps will remain same.
+
+Get going with the robot localizing itself in the map provided!!
