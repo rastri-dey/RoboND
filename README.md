@@ -1,4 +1,3 @@
-# RoboND_Project_Where_Am_I
 Udacity RoboND Term-2: Where am I
 
 This project is about Localization using ROS package AMCL to formulate robot motion in a provided map of Gazebo and Rviz simulated environments.
@@ -36,7 +35,7 @@ $ source devel/setup.bash
 $ roslaunch udacity_bot udacity_world.launch
 ```
 
-And then running the following in *separate* terminals -
+And then running the following in *separate*  terminals -
 
 ``` bash
 $ cd ~/catkin_ws
@@ -45,4 +44,3 @@ $ rosrun udacity_bot navigation goal
 ```
 **Note:** Change the folder name of catkin_ws in case of testing both the models together. For e.g., 'Catkin_ws1'for custom designed robot. ```cd ~/catkin_ws1``` Rest all steps will remain same.
 
-Get going with the robot localizing itself in the map provided!!
