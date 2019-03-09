@@ -49,10 +49,10 @@ $ rosrun udacity_bot navigation goal
 
 The Robot Model designed for the project is named as ``Robo-Med Assist``. See the writeup for more information on Robot configuration.
 
-![robot_model](Results/Custom_Designed_Robot/Robot_Gazebo.PNG)
+![robot_model](Results/Custom_Designed_Robot/Robot_Gazebo.png)
 
 The Robot localization performance on reaching the Goal can be shown as:
 
-![robot_Goal](Results/Custom_Designed_Robot/Robot_At_Goal_Position.PNG)
+![robot_Goal](Results/Custom_Designed_Robot/Robot_At_Goal_Position.png)
 
 Get going with the robot localizing itself in the map provided!!
