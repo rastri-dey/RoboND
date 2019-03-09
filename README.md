@@ -1,6 +1,7 @@
+# RoboND_Project_Where_Am_I
 Udacity RoboND Term-2: Where am I
 
-This project is about Localization using ROS package AMCL to formulate robot motion in a provided map of Gazebo and Rviz simulated environments.
+The project discusses Localization using ROS package AMCL to formulate robot motion in a provided map of Gazebo and Rviz simulated environments.See the writeup for theoretical content on Localization and specifics of AMCL with Results.
 
 The project explores several aspects of mobile robot localization utilizing ROS packages, with focus on the following:
 
@@ -35,7 +36,7 @@ $ source devel/setup.bash
 $ roslaunch udacity_bot udacity_world.launch
 ```
 
-And then running the following in *separate*  terminals -
+And then running the following in *separate* terminals -
 
 ``` bash
 $ cd ~/catkin_ws
@@ -44,3 +45,14 @@ $ rosrun udacity_bot navigation goal
 ```
 **Note:** Change the folder name of catkin_ws in case of testing both the models together. For e.g., 'Catkin_ws1'for custom designed robot. ```cd ~/catkin_ws1``` Rest all steps will remain same.
 
+## Robot Configuration
+
+The Robot Model designed for the project is named as ``Robo-Med Assist``. See the writeup for more information on Robot configuration.
+
+![robot_model](RoboND_Project_Where_Am_I/Results/Custom Designed Robot/Robot_Gazebo.PNG)
+
+The Robot localization performance on reaching the Goal can be shown as:
+
+![robot_Goal](Results/Custom Designed Robot/Robot_At_Goal_Position.PNG)
+
+Get going with the robot localizing itself in the map provided!!
