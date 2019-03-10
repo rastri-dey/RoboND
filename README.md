@@ -1,5 +1,4 @@
 # RoboND_Project_Where_Am_I
-Udacity RoboND Term-2: Where am I
 
 The project discusses Localization using ROS package AMCL to formulate robot motion in a provided map of Gazebo and Rviz simulated environments.
 **Note:** See the writeup for theoretical content on Localization and specifics of AMCL with Results.
@@ -8,7 +7,7 @@ The project discusses Localization using ROS package AMCL to formulate robot mot
 
 Several aspects of mobile robot localization utilizing ROS packages are discussed, with focus on the following:
 
-- Building a mobile robot for simulated tasks.
+- Building a mobile robot for simulated tasks. The designed robot is a 3 platform robot to carry supplies in real world.
 
 - Creating a ROS package that launches a custom robot model in a Gazebo world and utilizes packages like AMCL and the Navigation Stack.
 
