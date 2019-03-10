@@ -1,9 +1,12 @@
 # RoboND_Project_Where_Am_I
 Udacity RoboND Term-2: Where am I
 
-The project discusses Localization using ROS package AMCL to formulate robot motion in a provided map of Gazebo and Rviz simulated environments.See the writeup for theoretical content on Localization and specifics of AMCL with Results.
+The project discusses Localization using ROS package AMCL to formulate robot motion in a provided map of Gazebo and Rviz simulated environments.
+**Note:** See the writeup for theoretical content on Localization and specifics of AMCL with Results.
 
-The project explores several aspects of mobile robot localization utilizing ROS packages, with focus on the following:
+## Project Content
+
+Several aspects of mobile robot localization utilizing ROS packages are discussed, with focus on the following:
 
 - Building a mobile robot for simulated tasks.
 
@@ -23,8 +26,6 @@ $ rospack profile
 $ sudo apt-get install ros-kinetic-amcl
 ```
 
-Once all the packages are installed, the repository can be cloned and renamed to `udacity_bot`in order to be used in the local system. 
-
 ## Project Launch
 
 The project can be launched by running the following commands:
@@ -43,11 +44,11 @@ $ cd ~/catkin_ws
 $ source devel/setup.bash
 $ rosrun udacity_bot navigation goal
 ```
-**Note:** Change the folder name of catkin_ws in case of testing both the models together. For e.g., 'Catkin_ws1'for custom designed robot. ```cd ~/catkin_ws1``` Rest all steps will remain same.
+**Note:** Change the folder name of catkin_ws in case of testing both the models(benchmark model and custom designed model) together. For e.g., 'Catkin_ws1'for custom designed robot. ```cd ~/catkin_ws1``` Rest all steps will remain same from above.
 
 ## Robot Configuration
 
-The Robot Model designed for the project is named as ``Robo-Med Assist``. See the writeup for more information on Robot configuration.
+The Robot Model designed for the project is named as ``Robo-Med Assist``. 
 
 ![robot_model](Results/Custom_Designed_Robot/Robot_Gazebo.png)
 
@@ -55,4 +56,4 @@ The Robot localization performance on reaching the Goal can be shown as:
 
 ![robot_Goal](Results/Custom_Designed_Robot/Robot_At_Goal_Position.png)
 
-Get going with the robot localizing itself in the map provided!!
+The Robot is designed with an intent of getting used in disaster prone areas where robots can replace humans in order to prevent costing more lives. Get going with the robot localizing itself in the map provided!!
